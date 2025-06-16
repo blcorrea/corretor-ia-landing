@@ -4,7 +4,13 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Landing page para o Guia Essencial do Corretor de Imóveis com IA",
-  "keywords": ["corretor", "imóveis", "IA", "marketing", "landing-page"],
+  "keywords": [
+    "corretor",
+    "imóveis",
+    "IA",
+    "marketing",
+    "landing-page"
+  ],
   "author": "Bruno Corrêa",
   "scripts": {
     "dev": "vite",
@@ -14,9 +20,9 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "lucide-react": "^0.263.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "lucide-react": "^0.263.1"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
@@ -24,7 +30,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.4",
+    "tailwindcss": "^3.4.17",
     "typescript": "^5.5.3",
     "vite": "^5.3.4"
   },
