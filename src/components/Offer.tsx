@@ -65,7 +65,7 @@ const Offer = () => {
             <div className="mb-8">
               <div className="flex items-center justify-center gap-4 mb-4">
                 <span className="text-2xl text-gray-500 line-through">De R$ 97</span>
-                <span className="text-5xl font-bold text-green-600">R$ 27</span>
+                <span className="text-5xl font-bold text-green-600">R$ 37</span>
               </div>
               <p className="text-gray-600">
                 Menos que o valor de um almoço - mas que pode transformar sua carreira!
@@ -116,7 +116,7 @@ const Offer = () => {
         <div className="bg-red-600 p-6 rounded-xl">
           <h4 className="text-xl font-bold mb-3">⚠️ ATENÇÃO: OFERTA POR TEMPO LIMITADO</h4>
           <p className="text-red-100 mb-4">
-            Este preço promocional de R$ 27 é válido apenas para os próximos compradores. 
+            Este preço promocional de R$ 37 é válido apenas para os próximos compradores. 
             Após essa promoção, o valor volta para R$ 97.
           </p>
           <p className="text-red-200 font-bold">

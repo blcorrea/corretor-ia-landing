@@ -63,7 +63,7 @@ const Header = () => {
         {/* Price highlight */}
         <p className="mt-4 text-lg opacity-90">
           <span className="line-through text-gray-300">De R$ 97</span> 
-          <span className="text-accent-400 font-bold text-2xl ml-2">por apenas R$ 27</span>
+          <span className="text-accent-400 font-bold text-2xl ml-2">por apenas R$ 37</span>
         </p>
 
         {/* Urgency */}

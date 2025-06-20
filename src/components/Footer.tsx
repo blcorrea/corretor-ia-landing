@@ -78,7 +78,7 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="inline-block bg-white text-accent-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors"
             >
-              GARANTIR MINHA CÓPIA POR R$ 27
+              GARANTIR MINHA CÓPIA POR R$ 37
             </a>
           </div>
         </div>
