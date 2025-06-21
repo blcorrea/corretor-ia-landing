@@ -115,13 +115,13 @@ const ContentPreview = () => {
             <div className="bg-white/10 p-6 rounded-lg">
               <h4 className="text-xl font-bold mb-3">📱 Kit de Templates Prontos</h4>
               <p className="text-accent-100">
-                10 templates de posts para Instagram/Facebook já formatados e prontos para usar
+                O Corretor 4.0 do Atendimento - Mini E-book sobre Como Atender Clientes com IA no WhatsApp de Forma Humanizada
               </p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg">
-              <h4 className="text-xl font-bold mb-3">✅ Checklist do Corretor Digital</h4>
+              <h4 className="text-xl font-bold mb-3">✅ Raio X do Corretor Digital</h4>
               <p className="text-accent-100">
-                Lista completa para otimizar seu perfil nas redes sociais e maximizar conversões
+                 Ferramenta de autoconhecimento digital que vai te ajudar a entender em que ponto você está na sua jornada para se tornar um Corretor 4.0
               </p>
             </div>
           </div>

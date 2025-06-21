@@ -38,11 +38,11 @@ const Offer = () => {
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0" />
-                  <span>📱 Kit de 10 Templates para Redes Sociais</span>
+                  <span>📱 Mini Ebook - O Corretor 4.0 do Atendimento</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <CheckCircle className="w-6 h-6 text-green-600 flex-shrink-0" />
-                  <span>✅ Checklist do Corretor Digital</span>
+                  <span>✅ Raio X do Corretor Digital</span>
                 </div>
               </div>
               <div className="space-y-4">
