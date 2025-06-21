@@ -113,9 +113,9 @@ const ContentPreview = () => {
           </h3>
           <div className="grid md:grid-cols-2 gap-6 mt-6">
             <div className="bg-white/10 p-6 rounded-lg">
-              <h4 className="text-xl font-bold mb-3">📱 Kit de Templates Prontos</h4>
+              <h4 className="text-xl font-bold mb-3">📱 O Corretor 4.0 do Atendimento</h4>
               <p className="text-accent-100">
-                O Corretor 4.0 do Atendimento - Mini E-book sobre Como Atender Clientes com IA no WhatsApp de Forma Humanizada
+                Mini E-book sobre Como Atender Clientes com IA no WhatsApp de Forma Humanizada
               </p>
             </div>
             <div className="bg-white/10 p-6 rounded-lg">
