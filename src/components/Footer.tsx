@@ -1,6 +1,8 @@
 import React from 'react';
 import { Mail, Shield, Clock } from 'lucide-react';
 
+declare const fbq: any;
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-12 px-4">
@@ -19,7 +21,7 @@ const Footer = () => {
             </p>
             <div className="flex items-center gap-2 text-gray-400">
               <Mail className="w-4 h-4" />
-              <span>contato@brunocorrea.com</span>
+              <span>contato@brunolcorrea.com.br</span>
             </div>
           </div>
 
@@ -77,6 +79,7 @@ const Footer = () => {
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-white text-accent-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors"
+              onClick={() => fbq('track', 'Purchase')}
             >
               GARANTIR MINHA CÓPIA POR R$ 37
             </a>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { CheckCircle, Clock, Shield, Zap } from 'lucide-react';
 
+declare const fbq: any;
+
 const Offer = () => {
   return (
     <section id="oferta" className="py-16 px-4 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
@@ -80,10 +82,12 @@ const Offer = () => {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="relative block bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-500 text-white font-bold py-6 px-12 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 text-xl"
+                onClick={() => fbq('track', 'Purchase')}
               >
                 🚀 COMPRAR AGORA - ACESSO IMEDIATO
               </a>
             </div>
+            
 
             {/* Security badges */}
             <div className="flex flex-wrap justify-center items-center gap-6 mt-6 text-sm text-gray-600">
