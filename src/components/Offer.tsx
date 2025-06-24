@@ -79,7 +79,6 @@ const Offer = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-accent-500 to-accent-600 rounded-lg blur opacity-75 animate-pulse"></div>
               <a 
                 href="https://chk.eduzz.com/Z0B55KP6WA" 
-                target="_blank" 
                 rel="noopener noreferrer"
                 className="relative block bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-500 text-white font-bold py-6 px-12 rounded-lg shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 text-xl"
                 onClick={() => fbq('track', 'Purchase')}

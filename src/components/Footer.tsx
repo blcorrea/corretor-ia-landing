@@ -76,7 +76,6 @@ const Footer = () => {
             </h4>
             <a 
               href="https://chk.eduzz.com/Z0B55KP6WA" 
-              target="_blank" 
               rel="noopener noreferrer"
               className="inline-block bg-white text-accent-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors"
               onClick={() => fbq('track', 'Purchase')}
