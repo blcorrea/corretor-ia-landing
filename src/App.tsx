@@ -7,6 +7,7 @@ import ContentPreview from './components/ContentPreview';
 import Offer from './components/Offer';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import WhatsAppFloat from './components/WhatsAppFloat';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Offer />
       <FAQ />
       <Footer />
+      <WhatsAppFloat />
     </div>
   );
 }

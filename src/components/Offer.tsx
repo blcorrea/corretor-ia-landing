@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { CheckCircle, Clock, Shield, Zap } from 'lucide-react';
 
 declare const fbq: any;
 
 const Offer = () => {
+  useEffect(() => {
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'ViewContent');
+    }
+  }, []);
   return (
     <section id="oferta" className="py-16 px-4 bg-gradient-to-br from-gray-900 to-gray-800 text-white">
       <div className="max-w-4xl mx-auto text-center">
